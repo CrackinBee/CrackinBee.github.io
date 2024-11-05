@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* Project and Blog Post Styling */
+.project, .blog-post {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3, .blog-post h3 {
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+.project p, .blog-post p {
+    margin-bottom: 10px;
+}
+
+.project a, .blog-post a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.project a:hover, .blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Link Styling */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+/* Contact Section Styling */
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
