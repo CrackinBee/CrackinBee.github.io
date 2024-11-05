@@ -1,4 +1,4 @@
-/* General Reset */
+/* Resetting basic styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,103 +8,76 @@
 
 /* Body Styling */
 body {
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
     padding: 20px;
 }
 
-/* Header Section */
+/* Centered Text */
+.centered-text {
+    text-align: center;
+}
+
+/* Header Styling */
 header {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 header h1 {
     font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2em;
-    margin-top: 10px;
 }
 
 /* Section Styling */
 section {
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #333;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-}
-
-/* Project and Blog Post Styling */
+/* Project and Blog Post Card Styling */
 .project, .blog-post {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 15px;
-    background-color: #fafafa;
-    border: 1px solid #ddd;
+    background-color: #f0f0f0;
     border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
-.project h3, .blog-post h3 {
-    color: #007acc;
-    margin-bottom: 10px;
-}
-
-.project p, .blog-post p {
-    margin-bottom: 10px;
-}
-
-.project a, .blog-post a {
-    color: #007acc;
+/* Button Styling */
+.button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
 }
 
-.project a:hover, .blog-post a:hover {
-    text-decoration: underline;
+.button:hover {
+    background-color: #005f99;
 }
 
-/* Link Styling */
-a {
-    color: #333;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #007acc;
-    text-decoration: underline;
-}
-
-/* Contact Section Styling */
-#contact ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#contact li {
-    margin-bottom: 10px;
-}
-
-/* Footer */
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
     background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-}
-
-footer p {
-    font-size: 0.9em;
+    color: white;
+    border-radius: 8px;
 }
