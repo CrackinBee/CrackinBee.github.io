@@ -63,8 +63,8 @@ main {
 }
 
 .project-media img:not(:first-child) {
-    width: auto; /* Allow natural width to maintain original aspect ratio */
     height: 200px; /* Ensure consistent height */
+    width: auto; /* Allow natural width to maintain original aspect ratio */
     flex: 1;
 }
 
