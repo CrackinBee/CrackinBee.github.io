@@ -53,16 +53,14 @@ main {
     margin: 0 auto; /* Center the container on the page */
 }
 
-.project-media img {
+.project-media img:first-child {
+    flex: 2; /* Make the first image take up more space */
     height: 200px; /* Set a uniform height for all images */
     object-fit: cover; /* Ensure images maintain their aspect ratio */
 }
 
-.project-media img:first-child {
-    flex: 2; /* Make the first image take up more space */
-}
-
 .project-media img:not(:first-child) {
+    object-fit: cover; /* Ensure images maintain their aspect ratio */
     height: 200px; /* Ensure consistent height */
     width: auto; /* Allow natural width to maintain original aspect ratio */
     flex: 1;
