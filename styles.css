@@ -55,6 +55,7 @@ main {
     display: flex;
     margin-bottom: 15px;
     justify-content: space-between; /* Adjusts spacing between images */
+    background-color: #cfcbcb; /* Optional: background color for the container */
 }
 
 .project-media img {
@@ -69,17 +70,13 @@ main {
     line-height: 1.6;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .project-media {
-        flex-direction: column;
-    }
-
-    .project-media video,
-    .project-media img {
-        flex: 1 1 100%;
-    }
+.project-media video {
+    max-width: 100%; /* Ensures the video resizes to fit the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for the video */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
+
 /* Profile Section */
 .profile {
     display: flex;
