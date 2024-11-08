@@ -42,9 +42,15 @@ main {
     margin-bottom: 50px;
 }
 
+.project h1 {
+    margin-bottom: 15px;
+    align-items: center;
+}
+
 .project h2 {
     margin-bottom: 15px;
 }
+
 .project-media {
     display: flex;
     justify-content: center;
@@ -61,7 +67,7 @@ main {
 
 .project-media img:not(:first-child) {
     object-fit: cover; /* Ensure images maintain their aspect ratio */
-    height: 200px; /* Ensure consistent height */
+    height: fit-content; /* Ensure consistent height */
     width: auto; /* Allow natural width to maintain original aspect ratio */
     flex: 1;
 }
